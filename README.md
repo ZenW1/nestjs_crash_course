@@ -45,6 +45,30 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+```bash 
+#create controller  
+
+$ nest g controller users/controllers/users
+
+#create service
+
+$ nest g service users/services/users
+
+#create module
+
+$ nest g module users
+
+#create middlewares 
+
+$ nest g mi users/middlewares/users 
+
+#create pipe 
+
+$ nest g pi users/pipes/users
+
+
+nest 
+
 ## Run tests
 
 ```bash
